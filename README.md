@@ -50,7 +50,6 @@ Thank you for your time and consideration!
    ```bash
    npm start
    ```
-4. Open the application in your browser at `http://localhost:3000`.
 
 ## Demo
 
