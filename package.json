@@ -6,10 +6,8 @@
   "scripts": {
     "start": "parcel index.html",
     "build": "parcel build index.html",
-    "predeploy" : "npm run build",
-"deploy" : "gh-pages -d build",
-    "test": "jest",
-    "type-check": "tsc --noEmit"
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
   },
   "author": "Prasad Kulkarni",
   "license": "ISC",
