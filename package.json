@@ -1,13 +1,15 @@
 {
-  "homepage": "https://iampk14.github.io/petPinterest/",
+  "homepage": "https://iampk14.github.io/petPinterest",
   "name": "petpinterest",
   "version": "1.0.0",
   "description": "Eulerity Take home challenge",
   "scripts": {
     "start": "parcel index.html",
-    "build": "parcel build index.html",
+    "build": "parcel build index.html --public-url /petPinterest/",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d dist"
+    "deploy": "gh-pages -d dist",
+    "test": "jest",
+    "type-check": "tsc --noEmit"
   },
   "author": "Prasad Kulkarni",
   "license": "ISC",
